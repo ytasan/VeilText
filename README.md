@@ -1,4 +1,4 @@
-# Text Censorship Tool
+# VeilText - Text Censorship Tool
 
 This Python script automatically censors text according to specific rules.
 
