@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
             if line.lstrip().startswith("*"):
                 star_index = line.find("*")
-                content = line[star_index + 1:]
+                content = line[star_index + 1:].lower()
                 output_lines.append(mask_text(content))
             else:
                 output_lines.append(line)
